@@ -1,0 +1,32 @@
+(Fill out this file with brief answers.)
+
+Name(s) and NetID(s) of group members: Alisha Lin (al853) and Evelyn Si (es828)
+
+Time spent on the assignment, in hours:24
+
+Implementation strategy:
+    (describe how you went about implementing the assignment and how the work was divided between the partners.)
+    In order to implement this, we used the strategy and order suggested by the TODOs and the
+    instruction page (completing first part - ShortestPaths - before moving onto the second -
+    McDiver.) For ShortestPaths we wanted to make sure that our implementation was sound before
+    moving onto the next parts, so we wrote our test cases for it before starting on McDiver.
+    We both contributed equally to the assignment as we both took turns being the person typing
+    or the person that guides for every part of the assignment.
+
+Testing strategy:
+    (how did you perform testing and design test cases to achieve coverage?)
+    We tested our implementation of ShortestPaths before moving onto McDiver. We first designed our
+    test cases based on black-box testing where we wrote test cases based on the specification
+    of our method. Then, after success with that, we wrote glass-box test cases where we made sure
+    that the implementation was checked (every branch of the implementation has been visited).
+
+Known problems:
+    (are there any things that do not work?)
+    We struggled a bit on the optimization portion of the assignment. Having a working version
+    wasn't as challenging. The parts that didn't work for us (parts that we couldn't find
+    a working implementation) was when we tried to find a minimum distance from the ring (in
+    seek phase) everytime we checked a neighbor. Sometimes, McDiver goes in cycles. We had to
+    completely rethink our implementation.
+
+Comments on the assignment: It really helped understand the basics of Dijkstra's algorithm, and
+    we are now much more comfortable with graph traversals.
